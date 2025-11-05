@@ -1,0 +1,9 @@
+<?php
+    $roll=$_POST["rollno"];
+    $name=$_POST["name"];
+    $address=$_POST["address"];
+    $phone=$_POST["phone"];
+    $user=$_POST["username"];
+    $password=$_POST["password"];
+    $con=mysqli_connect('localhost','root','','student');
+?>
